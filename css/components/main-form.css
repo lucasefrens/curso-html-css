@@ -1,5 +1,10 @@
 .main-form {
+    background-color: #4D4D4D;
     padding: 50px 40px;
+}
+
+.main-form .main-title {
+    margin-bottom: 50px;
 }
 
 .main-form .main-input {
