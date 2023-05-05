@@ -5,10 +5,14 @@ body {
 body, h1, h2, h3, figure, input {
     margin: 0;
     padding: 0;
-    
 }
 
 button {
     border: none;
     font-family: inherit;
+}
+
+input {
+    border: none;
+    outline: none;
 }
