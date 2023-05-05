@@ -18,6 +18,7 @@
 
 .main-carousel::before {
     content: "";
+    box-sizing: border-box;
     position: absolute;
     top: 33px;
     left: 0;
@@ -38,4 +39,15 @@
 
 .main-carousel .button-arrow.-right {
     right: 15px;
+}
+
+.main-carousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
+    display: flex;
+    justify-content: space-between;
+    transition: .1s ease-in-out;
 }
