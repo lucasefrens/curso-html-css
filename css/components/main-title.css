@@ -10,3 +10,21 @@
     text-shadow: none;
     text-align: center;
 }
+
+@media (max-width: 670px) {
+    .main-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 490px) {
+    .main-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    .main-title {
+        font-size: 15px;
+    }
+}
