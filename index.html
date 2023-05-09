@@ -42,10 +42,10 @@
         <a href="#menu" class="icon-menu">Abrir Menu</a>
 
         <nav id="menu" class="menu">
-            <a class="main-action" href="" lang="en">Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
+            <a class="main-action" href="#skills" lang="en">Skills</a>
+            <a class="main-action" href="#projetos">Projetos</a>
+            <a class="main-action" href="#sobre">Sobre</a>
+            <a class="main-action" href="#contatos">Contatos</a>
             <a class="main-button" href="" lang="en">Download CV</a>
 
             <a class="icon-close" href="#menu">X</a>
@@ -66,7 +66,7 @@
         </div>
     </section>
 
-    <section class="main-section">
+    <section id="skills" class="main-section">
         <h2 class="main-title -second">Skills</h2>
 
 
@@ -75,16 +75,6 @@
                 <img class="icon" src="img/ico_html5.png" alt="Logo do HTML5 em pixel art">
                 <div class="right">
                     <h3 class="title">HTML</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
-                    </progress>
-                </div>
-            </article>
-
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_nodejs.png" alt="Logo do NodeJs em pixel art">
-                <div class="right">
-                    <h3 class="title">NodeJS</h3>
                     <progress class="progress-bar" max="100" value="70">
                         70%
                     </progress>
@@ -102,29 +92,9 @@
             </article>
 
             <article class="skill-tec">
-                <img class="icon" src="img/ico_tdd.png" alt="Logo do TDD em pixel art">
-                <div class="right">
-                    <h3 class="title">TDD</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
-                    </progress>
-                </div>
-            </article>
-
-            <article class="skill-tec">
                 <img class="icon" src="img/ico_js.png" alt="Logo do JavaScript em pixel art">
                 <div class="right">
                     <h3 class="title">JavaScript</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
-                    </progress>
-                </div>
-            </article>
-
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_restapi.png" alt="Logo do RestAPI em pixel art">
-                <div class="right">
-                    <h3 class="title">Rest API</h3>
                     <progress class="progress-bar" max="100" value="70">
                         70%
                     </progress>
@@ -141,19 +111,10 @@
                 </div>
             </article>
 
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_ux.png" alt="Logo do UX em pixel art">
-                <div class="right">
-                    <h3 class="title">UX</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
-                    </progress>
-                </div>
-            </article>
         </div>
     </section>
 
-    <section class="main-section -bgBlack -bdFirst">
+    <section id="projetos" class="main-section -bgBlack -bdFirst">
         <h2 class="main-title -second">Projetos</h2>
 
         <div class="wrapper-card">
@@ -178,7 +139,7 @@
         </div>
     </section>
 
-    <section class="main-section -bgSecond -bdBlack">
+    <section id="sobre" class="main-section -bgSecond -bdBlack">
         <h2 class="main-title -second">Sobre</h2>
 
         <section class="main-carousel">
@@ -234,12 +195,12 @@
         </section>
 
         <p class="main-description">
-            Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+            Sou um estudante de Análise e Desenvolvimento de Sistemas, atualmente no terceiro semestre. Sempre tive um grande interesse em tecnologia e estou constantemente buscando por conhecimento para me desenvolver na área. Possuo uma boa base em desenvolvimento web, aprendida tanto na faculdade quanto em cursos online. Estou sempre buscando novos desafios e projetos para expandir meus conhecimentosa e habilidades. Sou uma pessoa proativa e comprometida com meu trabalho, capaz de trabalhar bem em equipe. Estou procurando uma oportunidade que me permita crescer e contribuir com a equipe.
         </p>
 
     </section>
 
-    <form class="main-form" action="">
+    <form id="contatos" class="main-form" action="">
         <legend class="main-title -second" >Contatos</legend>
 
         <label class="main-label" for="name">Nome</label>
@@ -265,5 +226,6 @@
     </footer>
 
     <script src="js/components/main-carousel.js"></script>
+    <script src="js/components/open-menu.js"></script>
 </body>
 </html>
