@@ -7,8 +7,8 @@
 }
 
 .skill-tec .icon {
-    margin-right: 25px;
-    width: 90px;
+    margin-right: 1rem;
+    max-width: 90px;
 }
 
 .skill-tec .right {
@@ -16,8 +16,18 @@
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
+    width: 100%;
 }
 
 .skill-tec .title {
     margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+    .skill-tec {
+        font-size: 14px;
+    }
+
+    .skill-tec .icon {
+        max-width: 60px;
+    }
 }
