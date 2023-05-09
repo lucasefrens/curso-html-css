@@ -1,8 +1,9 @@
 .main-banner {
     box-sizing: border-box;
     background-image: url(../../assets/img/photo.png);
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 800px;
     border-bottom: 10px solid #000;
     padding-top: 115px;
@@ -12,7 +13,8 @@
 .main-banner .wrapper {
     display: flex;
     flex-direction: column;
-    width: 640px;
+    max-width: 640px;
+    width: 100%;
 }
 
 .main-banner .main-box {
@@ -22,4 +24,11 @@
 .main-banner .navigation {
     display: flex;
     justify-content: space-around;
+    gap: 30px;
+}
+
+@media (max-width: 1024px) {
+    .main-banner {
+        padding: 115px 20px;
+    }
 }
